@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Sharing Platform</title>
+    <link rel="stylesheet" href="/Styles.css">
+</head>
+<body>
+    <header>
+        <h1>File Sharing Platform</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Login/Create Account</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="file-upload">
+            <input type="file" id="file" multiple>
+            
+            <button id="upload-btn">Upload Files</button>
+        </section>
+
+        <section class="file-list">
+            <h2>Uploaded Files</h2>
+            <ul id="file-list">
+                <!--File list will be displayed here-->
+            </ul>
+        </section>
+
+        <section class="file-sharing">
+            <h2>Share Files</h2>
+            <input type="text" id="share-input" placeholder="Enter unique ID">
+            <button id="share-btn">Share File</button>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
